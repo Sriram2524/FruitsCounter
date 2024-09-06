@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: hsl(43, 100%, 71%);
+  min-height: 100vh;
+  padding: 30px;
+}
+.card {
+  background-color: white;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.heading {
+  font-family: roboto;
+  font-color: black;
+  margin-bottom: 60px;
+}
+.count1 {
+  color: #ffd569;
+  font-family: roboto;
+}
+.img {
+  width: 300px;
+}
+.fruit-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border-width: 0px;
+}
+.mango-card {
+  margin-right: 60px;
+}
+.text-con {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+@media (max-width: 767px) {
+  .fruit-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
